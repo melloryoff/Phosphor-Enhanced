@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "package": "net.caffeinemc.phosphor.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "block.MixinBlockStateBase",
+        "block.MixinShapeCache",
+        "chunk.MixinDataLayer"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
